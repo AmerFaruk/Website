@@ -1,0 +1,191 @@
+body {
+    background-color: #F6E1C3;
+}
+
+hr {
+    
+    border: dotted #7A3E65;
+    border-width: 0px 0 9px;
+    width: 144px;
+    text-align: center;
+    
+}
+a:visited {
+    color: #A84448;
+}
+
+/****************HEADERS*************************/
+.mainHead {
+    color: #A84448;
+    font-family: mainHeadFont;
+    text-align: center;
+    font-size: 72px;
+}
+h1 {
+    color: #A84448;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 72px;
+    font-family: mainHeadFont;
+}
+h2 {
+    color: #E9A178;
+    font-size: 48px;
+    text-align: center;
+    font-family: mainHeadFont;
+}
+
+h3 {
+    color: #898121;
+    font-size: 32px;
+    text-align: center;
+    font-family: mainHeadFont;
+}
+
+/******************************************************/
+
+/****************FONTS*************************/
+@font-face {
+    font-family: mainHeadFont;
+    src: url(fonts/PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family: paragraph;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: preWriting;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: listElement;
+    src: url(fonts/Fragment-Mono/FragmentMono-Regular.ttf);
+}
+/******************************************************/
+
+/******************TABLE*FORM*LİST********************/
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: listElement;
+}
+
+.experiences {
+    padding: 50px 50px 50px 50px;
+}
+.skills {
+    padding: 25px 25px 25px 25px;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+td {
+    padding-right: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    font-family: listElement;
+}
+
+.lineInput {
+    height: 18px;
+    margin: 10px;
+}
+
+.send {
+    height: 25px;
+    margin: 10px;
+    font-family: listElement;
+}
+
+label {
+    font-size: 18px;
+    margin: 10px;
+}
+
+textarea {
+    margin: 10px;
+}
+/************************ UL List ***************************/
+.haveSubClassList {
+    display: flex;
+    justify-content: center;
+
+}
+
+.flatUlList {
+    padding: 50px;;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+li {
+    margin: auto;
+    font-size: 24px;
+    font-family: listElement;   
+}
+.infoDiv {
+    text-align: center;
+}
+.information {
+    list-style: none;
+    display: inline-flex;
+    padding: 5px 5px 5px 5px;
+}
+.logoList {
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+}
+/**********************************************************/
+.upperListHeader {
+    padding-top: 105px;
+}
+.dnd {
+    height: 64px;
+    width: 86px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 21px;
+    height: 21px;
+}
+
+.communicationPNG {
+    width: 32px;
+    height: 32px;
+}
+
+.dnd:hover {
+    height: 125px;
+    width: 172px;
+}
+.profilephoto {
+    height: 240px;
+    width: 240px;
+
+}
+
+.introText {
+    text-align: center;
+    font-size: 24px;
+    font-family: preWriting;
+}
+
+.quote {
+    text-align: center;
+    font-size: 18px;
+    color: darksalmon;
+}
+
+p {
+    font-family: paragraph;
+}
